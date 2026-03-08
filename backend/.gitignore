@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments - MUST be excluded!
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+*.venv/
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.production
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+codementor.db
+
+# Logs
+*.log
+error.log
+out.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# FAISS indexes (can be regenerated)
+knowledge_base/faiss_index
+knowledge_base/user_faiss_index
+knowledge_base/user_indexes/
+
+# Temporary files
+*.tmp
+*.bak
+latest_feedback.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pgvector (external dependency)
+pgvector/

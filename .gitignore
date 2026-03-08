@@ -1,0 +1,27 @@
+# Root level gitignore for Code Mentor AI
+
+# Environment variables - CRITICAL: Never commit API keys!
+.env
+.env.local
+.env.*.local
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# See frontend/.gitignore and backend/.gitignore for specific rules
